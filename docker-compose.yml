@@ -41,7 +41,7 @@ services:
     restart: always
     ports:
       # host port : container port
-      - "8080:80"
+      - "8082:80"
     environment:
       PMA_HOST: ${DB_HOST}
       PMA_USER: ${DB_NAME}
