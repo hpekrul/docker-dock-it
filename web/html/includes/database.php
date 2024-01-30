@@ -1,8 +1,4 @@
 <?php
-$db = @mysqli_connect(
-	getenv("MYSQL_HOST"),
-	getenv("MYSQL_USER"),
-	getenv("MYSQL_PASSWORD"),
-	getenv("MYSQL_DATABASE"))
-		or die('Error connecting to database');
-		//or die('Error connecting to database: ' . mysqli_connect_error()); // for debugging
+//      server        username          password              database
+$db = @mysqli_connect('localhost', 'hpekrul', '000471208', 'hpekrul')
+or die('unable to connect to the database.');
