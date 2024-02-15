@@ -19,7 +19,7 @@ docker compose up -d
 ```shell
 docker exec -it docker-dock-it-wpcli-1 bash -c " 
 wp plugin delete hello akismet ; 
-wp plugin install health-check query-monitor loco-translate --activate ;  
+wp plugin install health-check query-monitor modula-best-grid-gallery custom-post-type-widgets everest-forms mystickysidebar --activate ;  
 wp plugin activate mailhog ;
 wp plugin activate final-books; 
 wp theme activate wpd_final ;
